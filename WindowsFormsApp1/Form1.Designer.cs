@@ -33,6 +33,7 @@
             this.left = new System.Windows.Forms.Button();
             this.Up = new System.Windows.Forms.Button();
             this.down = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,11 +87,22 @@
             this.down.UseVisualStyleBackColor = true;
             this.down.Click += new System.EventHandler(this.button4_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(107, 405);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Pathway";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.down);
             this.Controls.Add(this.Up);
             this.Controls.Add(this.left);
@@ -111,6 +123,7 @@
         private System.Windows.Forms.Button left;
         private System.Windows.Forms.Button Up;
         private System.Windows.Forms.Button down;
+        private System.Windows.Forms.Button button1;
     }
 }
 
